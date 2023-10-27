@@ -1,10 +1,11 @@
 {
   "name": "typescript-07",
+  "type": "module",
   "version": "1.0.0",
   "description": "Exercício 07 do curso de TypeScript",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +14,6 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "nodemon": "^3.0.1"
   }
 }
